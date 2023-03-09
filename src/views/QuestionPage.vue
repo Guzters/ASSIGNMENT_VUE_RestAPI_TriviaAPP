@@ -41,14 +41,14 @@ onMounted(async () => {
 
 <style lang="postcss" scoped>
 .question-container {
-    @apply flex h-full flex-col items-center gap-8;
+    @apply flex h-full flex-col items-center gap-8 text-slate-300;
 
     & .question{
         @apply text-center text-2xl font-bold;
     }
 
     & .answers{
-        @apply grid w-full flex-grow grid-cols-2 gap-8;
+        @apply grid w-5/6 flex-grow grid-cols-2 gap-8;
         & .answer {
             @apply flex items-center justify-center bg-red-500 rounded-lg text-white text-4xl;
         }
